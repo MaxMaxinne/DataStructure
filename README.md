@@ -1,0 +1,2 @@
+# Detectron
+I-GYM采用[Detectron](https://github.com/facebookresearch/Detectron)库中的Mask R-CNN模型进行视频中人体二维关节点位置推断。当前模型已经由团队人员进行过测试，已训练的模型位于path/to/model_final.pkl，配置文件位于configs/12_2017_baselines/e2e_keypoint_rcnn_R-101-FPN_s1x.yaml，如您在测试或训练时遇到问题，请尝试重新配置Detectron或安装相关依赖（参考根目录下INSTALL.md）。如您需要Detectron模型的简要使用说明，请参阅根目录下GETTING_STARTED.md。如果您想将Detectron模型的推断结果输入VideoPose3D模型，请参阅VideoPose3D模型中相关说明文件(INFERENCE.md)。
